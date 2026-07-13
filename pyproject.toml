@@ -1,0 +1,14 @@
+[project]
+name = "podcast-to-skills"
+version = "0.1.0"
+description = "Agent workflow for turning Apple Podcast episodes into reusable skills."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "faster-whisper",
+  "opencc-python-reimplemented",
+  "requests",
+]
+
+[tool.uv]
+package = false
